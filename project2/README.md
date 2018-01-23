@@ -6,9 +6,6 @@ Portfolio Site
 code editor
 https://pixabay.com/en/code-code-editor-coding-computer-1839406/
 
-web dev logo
-https://pixabay.com/en/computer-coding-development-1941945/
-
 books
 https://pixabay.com/en/books-library-lexicon-read-learn-584999/
 
