@@ -25,24 +25,20 @@
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 h2 {
     font-size: 2em;
 }
 
-@media only screen and (max-width: 500px) and (orientation: landscape) {
-    p {
-        background-color: blue;
-        /*display: none;*/
-    }
-}
-
 .app_image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     max-width: 320px;
     max-height: 200px;
-    padding: 5px;
+    padding: 5px; 
 }
 
 div img {
@@ -84,7 +80,7 @@ div img {
 }
 
 .col-4 {
-    width: 33.33%;
+    width: 100%;
 }
 
 .col-5 {
@@ -117,6 +113,28 @@ div img {
 
 .col-12 {
     width: 100%;
+}
+
+@media screen and (min-width: 740px) {
+  h1 {
+    font-size: 3em;
+  }
+  .col-4  {
+    width: 33.33%;
+  }
+  .app_image {
+    max-width: 320px;
+    max-height: 200px;
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 515px) {
+  .app_image {
+    max-width: 480px;
+    max-height: 280px;
+    padding: 5px;
+  }
 }
 
 /*** Footer Styling ***/
