@@ -1,3 +1,11 @@
+/*
+    Colors used for the site
+    dark-blue: #005c99;
+    dark-gray: #4d4d4d;
+    off-white: #fdfaf6;
+
+*/
+
 
 * {
     -webkit-box-sizing: border-box;
@@ -18,11 +26,17 @@
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.5em;
+    color: #4d4d4d;
 }
 
 h2 {
     font-size: 1.5em;
+    color: #4d4d4d;
+}
+
+h3, h4 {
+    color: #4d4d4d;
 }
 
 .app_image {
@@ -70,6 +84,12 @@ div img {
 
 .full_length {
     width: 100%;
+}
+
+@media screen and (min-width: 415px) {
+  h1 {
+    font-size: 2em;
+  }
 }
 
 @media screen and (min-width: 740px) {
