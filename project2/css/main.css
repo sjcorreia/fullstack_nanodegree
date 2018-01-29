@@ -60,6 +60,7 @@ div img {
 
 .background_image {
     max-height: auto;
+    align-self: stretch;
     width: 100%;
 }
 
